@@ -27,6 +27,8 @@ documents: {{ site.documents }}
 
 config: {{ site.config }}
 
+to_h: {{ site.to_h }}
+
 # Jekyll
 
 version: {{ jekyll.version }}
