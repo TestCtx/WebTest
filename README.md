@@ -25,6 +25,11 @@ plugins: {{ site.plugins }}
 
 documents: {{ site.documents }}
 
+# Jekyll
+
+version: {{ jekyll.version }}
+environment: {{ jekyll.environment }}
+
 ---
 
 {{ site }}
