@@ -11,16 +11,24 @@ New 3
 
 # Site Vars
 
-{{ site.title }}
+title {{ site.title }}
 
-{{ site.source }}
+source: {{ site.source }}
 
-{{ site.safe }}
+safe: {{ site.safe }}
 
-{{ site.include }}
+include: {{ site.include }}
 
-{{ site.exclude }}
+exclude: {{ site.exclude }}
+
+plugins: {{ site.plugins }}
+
+---
 
 {{ site }}
+
+---
+
+
 
 X
