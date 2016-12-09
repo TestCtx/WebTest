@@ -31,7 +31,9 @@ version: {{ jekyll.version }}
 
 environment: {{ jekyll.environment }}
 
-json: {{ jekyll.to_h }}
+to_h: {{ jekyll.to_h }}
+
+to_json: {{ jekyll.to_json }}
 
 ---
 
