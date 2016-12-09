@@ -39,9 +39,11 @@ to_json: {{ jekyll.to_json }}
 
 ---
 
-{{ site }}
+site: {{ site }}
 
-{{ jekyll }}
+jekyll: {{ jekyll }}
+
+jekyll.superclass: {{ jekyll.superclass }}
 
 ---
 
