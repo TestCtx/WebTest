@@ -43,7 +43,7 @@ site: {{ site }}
 
 jekyll: {{ jekyll }}
 
-jekyll.superclass: {{ jekyll.superclass }}
+jekyll.class: {{ jekyll.class }}
 
 ---
 
