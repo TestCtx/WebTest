@@ -28,7 +28,10 @@ documents: {{ site.documents }}
 # Jekyll
 
 version: {{ jekyll.version }}
+
 environment: {{ jekyll.environment }}
+
+json@ {{ jekyll.to_json }}
 
 ---
 
