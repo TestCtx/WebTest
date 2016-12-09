@@ -40,6 +40,7 @@ to_json: {{ jekyll.to_json }}
 ---
 
 site: {{ site }}
+
 site.mutable: {{ site.mutable }}
 
 jekyll: {{ jekyll }}
@@ -56,5 +57,8 @@ testvar: {{ testvar }}
 site.title: {{ site.title }}
 
 
+# Sandbox
+
+F: {{ File.expand_path "test" }}
 
 X
