@@ -1,12 +1,9 @@
 # WebTest
-Hello World!
-
-site.baseurl
-{{ site.baseurl }}
-
-Updated?
-New 3
-
+{% highlight ruby %}
+def foo
+  puts 'foo'
+end
+{% endhighlight %}
 
 
 # Site Vars
@@ -29,7 +26,7 @@ config: {{ site.config }}
 
 to_h: {{ site.to_h }}
 
-keys: {{ site.keys }}
+gems: {{ site.gems }}
 
 site["safe"]: {{ site["safe"] }}
 
