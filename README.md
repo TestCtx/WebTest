@@ -23,9 +23,13 @@ exclude: {{ site.exclude }}
 
 plugins: {{ site.plugins }}
 
+documents: {{ site.documents }}
+
 ---
 
 {{ site }}
+
+{{ jekyll }}
 
 ---
 
