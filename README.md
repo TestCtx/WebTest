@@ -29,6 +29,10 @@ config: {{ site.config }}
 
 to_h: {{ site.to_h }}
 
+keys: {{ site.keys }}
+
+site["safe"]: {{ site["safe"] }}
+
 # Jekyll
 
 version: {{ jekyll.version }}
