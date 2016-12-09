@@ -5,5 +5,5 @@ site.baseurl
 {{ site.baseurl }}
 
 Updated?
-{% include footer.html %}
-New
+{% include_relative somedir/footer.html %}
+New 2
