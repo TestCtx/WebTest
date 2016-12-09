@@ -47,6 +47,13 @@ jekyll.class: {{ jekyll.class }}
 
 ---
 
+# Assign
+{% assign testvar = "Blah" %}
+testvar: {{ testvar }}
+
+{% assign site.testvar = "Blah" %}
+site.testvar: {{ site.testvar }}
+
 
 
 X
