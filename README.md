@@ -25,6 +25,8 @@ plugins: {{ site.plugins }}
 
 documents: {{ site.documents }}
 
+config: {{ site.config }}
+
 # Jekyll
 
 version: {{ jekyll.version }}
