@@ -59,6 +59,6 @@ site.title: {{ site.title }}
 
 # Sandbox
 
-F: {{ File.expand_path "test" }}
+F: hi #{lookup_variable(context, @markup)}
 
 X
