@@ -1,6 +1,5 @@
 ---
 ---
-JS
 (function() {
   var list, math, square;
   square = function(x) {
@@ -15,4 +14,3 @@ JS
     }
   };
 }).call(this);
-JS
