@@ -9,12 +9,17 @@ New 3
 
 
 
-#Site Vars
+# Site Vars
 
 {{ site.title }}
+
 {{ site.source }}
+
 {{ site.safe }}
+
 {{ site.include }}
+
 {{ site.exclude }}
+
 
 X
