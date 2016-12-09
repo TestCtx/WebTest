@@ -26,7 +26,7 @@ config: {{ site.config }}
 
 to_h: {{ site.to_h }}
 
-gems: {% for gem in site.gems }
+gems: {% for gem in site.gems %}
 * {{ gem }}
 {% endfor %}
 
