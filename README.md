@@ -51,8 +51,8 @@ jekyll.class: {{ jekyll.class }}
 {% assign testvar = "Blah" %}
 testvar: {{ testvar }}
 
-{% assign site.testvar = "Blah" %}
-site.testvar: {{ site.testvar }}
+{% assign site.title = "Blah" %}
+site.title: {{ site.title }}
 
 
 
