@@ -6,3 +6,5 @@ site.baseurl
 
 Updated?
 New 3
+
+{{ site.title }}
