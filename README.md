@@ -21,5 +21,6 @@ New 3
 
 {{ site.exclude }}
 
+{{ site }}
 
 X
