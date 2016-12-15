@@ -1,9 +1,13 @@
 # WebTest
 {{ jekyll.to_h }}
 
-{{ jekyll.to_h.member? "version" }}
+{{ jekyll.to_h.invert }}
 
-{{ jekyll.to_h.member?("version") }}
+{{ jekyll.to_h().invert }}
+
+{{ jekyll.to_h().member? "version" }}
+
+{{ jekyll.to_h().member?("version") }}
 
 # Kramdown
 
