@@ -1,16 +1,6 @@
 # WebTest
 
-inspect {{ inspect }}
-
-{{ jekyll.to_h }}
-
-{{ jekyll.to_h.invert }}
-
-{{ jekyll.to_h().invert }}
-
-{{ jekyll.to_h().member? "version" }}
-
-{{ jekyll.to_h().member?("version") }}
+{{ page || inspect }}
 
 # Kramdown
 
