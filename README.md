@@ -1,5 +1,6 @@
 # WebTest
-site.static_files {{ site.static_files[0] }}
+site.static_files.inspect {{ site.static_files[0] | inspect }}
+site.static_files[0+1] {{ site.static_files[0+1] }}
 
 # Kramdown
 
