@@ -1,6 +1,6 @@
 # WebTest
-Jekyll::Drops::JekyllDrop {{ Jekyll::Drops::JekyllDrop }}
-Jekyll::Drops::JekyllDrop.inspect {{ Jekyll::Drops::JekyllDrop | inspect }}
+Jekyll::Site {{ Jekyll::Site }}
+Jekyll::Site.inspect {{ Jekyll::Site | inspect }}
 
 # Kramdown
 
