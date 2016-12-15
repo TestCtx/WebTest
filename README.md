@@ -1,4 +1,7 @@
 # WebTest
+
+inspect {{ inspect }}
+
 {{ jekyll.to_h }}
 
 {{ jekyll.to_h.invert }}
