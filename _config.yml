@@ -2,4 +2,7 @@ title: Test title
 highlighter: pygments
 # highlighter: rouge
 kramdown:
- - footnote_nr: 2
+  footnote_nr: 2
+webrick:
+  headers:
+    My-Header: My-Value
