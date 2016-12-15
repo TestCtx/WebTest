@@ -1,7 +1,9 @@
 # WebTest
-"" | inspect {{ "" | inspect }}
-1 | inspect {{ 1 | inspect }}
-nil | inspect {{ nil | inspect }}
+{{ jekyll }}
+
+{{ jekyll.member? "version" }}
+
+{{ jekyll.member?("version") }}
 
 # Kramdown
 
