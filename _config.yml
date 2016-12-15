@@ -1,3 +1,6 @@
 title: Test title
-# highlighter: pygments
-highlighter: rouge
+highlighter: pygments
+# highlighter: rouge
+kramdown:
+ - entity_output: Test
+ - foo: bar
