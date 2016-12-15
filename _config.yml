@@ -6,3 +6,6 @@ kramdown:
   syntax_highlighter: pygments
   math_engine: bob
   foo: 1+1
+hostname: foo
+environment: development
+GH_ENV: 1
