@@ -1,5 +1,5 @@
 title: Test title
 highlighter: pygments
 # highlighter: rouge
-kramdown:
- - foo: "bar"
+# kramdown:
+# - foo: "bar"
