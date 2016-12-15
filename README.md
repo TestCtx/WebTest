@@ -1,6 +1,6 @@
 # WebTest
-site.static_files.inspect {{ site.static_files[0] | inspect }}
-site.static_files[0+1] {{ site.static_files[0+1] }}
+Jekyll::Drops::JekyllDrop {{ Jekyll::Drops::JekyllDrop }}
+Jekyll::Drops::JekyllDrop.inspect {{ Jekyll::Drops::JekyllDrop | inspect }}
 
 # Kramdown
 
