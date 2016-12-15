@@ -1,6 +1,7 @@
 # WebTest
-Jekyll::Site {{ Jekyll::Site }}
-Jekyll::Site.inspect {{ Jekyll::Site | inspect }}
+"" | inspect {{ "" | inspect }}
+1 | inspect {{ 1 | inspect }}
+nil | inspect {{ nil | inspect }}
 
 # Kramdown
 
