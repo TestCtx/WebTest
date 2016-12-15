@@ -1,10 +1,10 @@
 # WebTest
 
-{{ page.invokable_methods }}
+x {{ page["class"] }}
 
-{{ site.invokable_methods }}
+{{ site["class"] }}
 
-{{ jekyll.invokable_methods }}
+{{ jekyll["class"] }}
 
 # Kramdown
 
