@@ -62,7 +62,7 @@ to_json: {{ jekyll.to_json }}
 
 site: {{ site }}
 
-site.mutable: {{ site.mutable }}
+site.mutable?: {{ site.mutable? }}
 
 jekyll: {{ jekyll }}
 
