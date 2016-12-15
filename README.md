@@ -12,6 +12,8 @@ ENV.to_h {{ ENV.to_h }}
 
 # Site Vars
 
+instance_variables {{ site.instance_variables }}
+
 title {{ site.title }}
 
 source: {{ site.source }}
