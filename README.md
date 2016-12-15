@@ -5,6 +5,10 @@ def foo
 end
 {% endhighlight %}
 
+# ENV
+ENV {{ ENV }}
+
+ENV.to_h {{ ENV.to_h }}
 
 # Site Vars
 
