@@ -5,6 +5,10 @@ def foo
 end
 {% endhighlight %}
 
+# Kramdown
+
+kramdown {{ site.kramdown }}
+
 # Site Vars
 
 site.rdiscount {{ site.rdiscount }}
