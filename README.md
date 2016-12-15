@@ -1,9 +1,5 @@
 # WebTest
-{% highlight ruby %}
-def foo
-  puts 'foo'
-end
-{% endhighlight %}
+site.static_files {{ site.static_files[0] }}
 
 # Kramdown
 
