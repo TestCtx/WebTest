@@ -5,12 +5,9 @@ def foo
 end
 {% endhighlight %}
 
-# ENV
-ENV {{ ENV }}
-
-ENV.to_h {{ ENV.to_h }}
-
 # Site Vars
+
+site.rdiscount {{ site.rdiscount }}
 
 inspect {{ site | inspect }}
 
@@ -39,6 +36,8 @@ gems: {% for gem in site.gems %}
 site["safe"]: {{ site["safe"] }}
 
 # Jekyll
+
+inspect {{ jekyll | inspect }}
 
 version: {{ jekyll.version }}
 
