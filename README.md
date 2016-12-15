@@ -1,6 +1,10 @@
 # WebTest
 
-{{ page || inspect }}
+{{ page.invokable_methods }}
+
+{{ site.invokable_methods }}
+
+{{ jekyll.invokable_methods }}
 
 # Kramdown
 
