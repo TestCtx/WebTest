@@ -5,3 +5,4 @@ kramdown:
   footnote_nr: 3
   syntax_highlighter: pygments
   math_engine: bob
+  foo: 1+1
