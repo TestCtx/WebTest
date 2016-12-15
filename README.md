@@ -12,7 +12,7 @@ ENV.to_h {{ ENV.to_h }}
 
 # Site Vars
 
-instance_variables {{ site.instance_variables }}
+inspect {{ site | inspect }}
 
 title {{ site.title }}
 
